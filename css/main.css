@@ -1,0 +1,64 @@
+body {
+  /* background: #ff5f6d; fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d */
+  /* ); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+    to right,
+    #ffc371,
+    #ff5f6d */
+  /* ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Inconsolata', monospace;
+}
+
+img {
+  width: 450px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  /* grid-template-rows: 1fr auto; */
+  grid-gap: 1em;
+  /* grid-column-gap: 1em;
+  grid-row-gap: 1em; */
+}
+
+.wrapper > div {
+  /* background-color: #eeeeee; */
+  padding: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* .wrapper > div:nth-child(even) {
+  background-color: #eee;
+} */
+
+.pic {
+  display: grid;
+  justify-content: end;
+  align-content: center;
+}
+
+.info {
+  align-self: center;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 1em;
+}
+
+.desc {
+  grid-row: 2/99;
+}
