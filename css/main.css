@@ -13,13 +13,43 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+a > h1 {
+  color: orange;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav a {
+  color: black;
+}
+
+a.active {
+  color: orange;
+}
+
+a:hover {
+  color: orange;
+}
+
 img {
   width: 450px;
 }
 
+.outer {
+  display: 'flex';
+}
+
+.inner {
+  margin: auto;
+  width: 1080px;
+  /* border: 1px black solid; */
+}
+
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 2fr 2fr 1fr;
   /* grid-template-rows: 1fr auto; */
   grid-gap: 1em;
   /* grid-column-gap: 1em;
@@ -29,14 +59,6 @@ img {
 .wrapper > div {
   /* background-color: #eeeeee; */
   padding: 1em;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
 
 /* .wrapper > div:nth-child(even) {
@@ -55,10 +77,16 @@ a:hover {
 
 .nav {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-column-gap: 1em;
+  grid-auto-rows: 3em;
+  align-items: center;
+  align-self: center;
+  border-left: 1px black solid;
 }
 
-.desc {
-  grid-row: 2/99;
+.intro {
+  grid-column: 1/3;
+}
+
+footer {
+  padding: 1em;
 }
