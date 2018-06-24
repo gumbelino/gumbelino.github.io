@@ -13,11 +13,8 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
-a > h1 {
-  color: orange;
-}
-
 a {
+  color: orange;
   text-decoration: none;
 }
 
@@ -25,7 +22,7 @@ a {
   color: black;
 }
 
-a.active {
+.nav a.active {
   color: orange;
 }
 
