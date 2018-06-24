@@ -38,7 +38,7 @@ img {
 }
 
 .outer {
-  display: 'flex';
+  display: 'grid';
 }
 
 .inner {
@@ -49,7 +49,7 @@ img {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
   /* grid-template-rows: 1fr auto; */
   grid-gap: 1em;
   /* grid-column-gap: 1em;
@@ -66,13 +66,16 @@ img {
 } */
 
 .pic {
+  /* background-size: cover;
+  background-image: url('../assets/grad.jpg'); */
   display: grid;
-  justify-content: end;
+  justify-content: center;
   align-content: center;
 }
 
 .info {
   align-self: center;
+  width: 304px;
 }
 
 .nav {
@@ -89,4 +92,46 @@ img {
 
 footer {
   padding: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1080px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+  .inner {
+    width: 704px;
+    /* border: 1px black solid; */
+  }
+  .info {
+    align-self: center;
+    justify-self: center;
+    width: 304px;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+  }
+  .pic {
+    display: none;
+  }
+  .intro {
+    grid-column: 1/2;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  /* CSS for screens that are 320 pixels or less will be put in this section */
+  .inner {
+    width: auto;
+    /* border: 1px black solid; */
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto;
+    /* grid-template-rows: 1fr auto; */
+    grid-gap: 1em;
+    /* grid-column-gap: 1em;
+    grid-row-gap: 1em; */
+  }
 }
