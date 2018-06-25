@@ -101,7 +101,7 @@ footer {
   justify-content: center;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1080px) and (min-width: 701px) {
   /* CSS for screens that are 320 pixels or less will be put in this section */
   .inner {
     width: 704px;
