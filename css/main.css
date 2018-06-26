@@ -91,6 +91,14 @@ img {
   margin-left: 1em;
 }
 
+.paragraph {
+  margin-left: 1em;
+}
+
+.paragraph > div {
+  margin-left: 1em;
+}
+
 .award {
   color: orangered;
 }
