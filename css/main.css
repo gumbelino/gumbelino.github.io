@@ -115,10 +115,20 @@ h3 {
   color: orangered;
 }
 
+.col1 {
+  grid-column: 1;
+}
+
+.col2 {
+  grid-column: 2;
+}
+
 .proj-img {
+  background-color: aquamarine;
   align-self: center;
   justify-self: center;
-  width: 304px;
+  width: 200px;
+  height: 200px;
 }
 
 footer {
@@ -151,20 +161,14 @@ footer {
   }
 }
 
-@media screen and (max-width: 700px) {
-  /* CSS for screens that are 320 pixels or less will be put in this section */
+@media screen and (max-width: 730px) {
   .inner {
     width: auto;
-
-    /* border: 1px black solid; */
   }
   .wrapper {
     display: grid;
     grid-template-columns: auto;
-    /* grid-template-rows: 1fr auto; */
     grid-gap: 1em;
-    /* grid-column-gap: 1em;
-    grid-row-gap: 1em; */
   }
   .content {
     grid-column: 1/2;
