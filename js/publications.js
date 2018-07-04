@@ -5,10 +5,3 @@ const pubs = [
     url: '',
   },
 ];
-
-new Vue({
-  el: '#pubs',
-  data: {
-    pubs,
-  },
-});
