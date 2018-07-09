@@ -180,7 +180,7 @@ footer {
 .social-media {
   display: grid;
   margin: 1em;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* Style all font awesome icons */
@@ -203,6 +203,13 @@ footer {
   opacity: 0.5;
   color: white;
   background-color: orange;
+}
+
+.fa-github {
+  padding: 5px;
+  font-size: 30px !important;
+  width: 37px;
+  padding-top: 7px;
 }
 
 @media screen and (max-width: 730px) {
