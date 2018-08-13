@@ -39,6 +39,13 @@ h3 {
   color: orange;
 }
 
+.nav a:hover:not(.active) {
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+}
+
 .photo {
   width: 450px;
 }
@@ -203,6 +210,9 @@ footer {
   opacity: 0.5;
   color: white;
   background-color: orange;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
 }
 
 .fa-github {
