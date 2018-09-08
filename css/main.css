@@ -161,6 +161,10 @@ footer {
   justify-items: center;
 }
 
+.post iframe {
+  width: 400px;
+}
+
 @media screen and (max-width: 1080px) {
   /* CSS for screens that are 320 pixels or less will be put in this section */
   .inner {
@@ -234,5 +238,9 @@ footer {
   }
   .content {
     grid-column: 1/2;
+  }
+
+  .post iframe {
+    width: 100%;
   }
 }
