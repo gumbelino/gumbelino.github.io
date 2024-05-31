@@ -1,3 +1,5 @@
-title,authors,venue,year,link
-this is paper,"Gus Umbelino, Matt Easterday",CHI,2024,link
-this is pape 2,"Gus Umbelino",CSCW,2024,link
+title,authors,conference,details,link
+Increasing Inclusion and Time-Efficiency in Participatory Policy-Making Deliberations with E-Scribing Technology,"Gustavo Umbelino, Kristine Lu, Matthew Easterday",ICEGOV 2023,International Conference on Theory and Practice of Electronic Governance,https://doi.org/10.1145/3614321.3614349
+An Emergent Understanding of Mentor Strategies for Career Development in Emerging Fields,"Gustavo Umbelino, Daniel Rees Lewis, Elizabeth Gerber, Matthew Easterday",CHI EA 2021,Conference on Human Factors in Computing Systems,https://doi.org/10.1145/3411763.3451800
+ProtoTeams: Supporting Team Dating in Co-Located Settings,"Gustavo Umbelino, Matin Yarmand, Samuel Blake, Vivian Ta, Amy Luo, Steven Dow",CSCW 2020,Conference on Computer-Supported Cooperative Work and Social Computing,https://dl.acm.org/doi/abs/10.1145/3434182
+The Persistent Effect of Pre-College Computing Experience on College CS Course Grades,"Christine Alvarado, Gustavo Umbelino, and Mia Minnes",SIGCSE 2018,"Technical Symposium on Computer Science Education, ACM Inroads",https://dl.acm.org/citation.cfm?id=3159508
