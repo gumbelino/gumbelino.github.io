@@ -17,7 +17,7 @@
 
 $().ready(function () {
 
-  var pubs = "/Users/gus/Documents/gumbelino.github.io/assets/pubs.csv"
+  var pubs = "assets/pubs.csv"
 
 
   $.get(pubs, function (data) {
