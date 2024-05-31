@@ -17,15 +17,15 @@
 
 $().ready(function () {
 
-  var pubs = "assets/pubs.csv"
+  // var pubs = "assets/pubs.csv"
 
 
-  $.get(pubs, function (data) {
-    // var csv_string = data;
-    // console.log(csv_string)
-    $("#pubs").html(data);
+  // $.get(pubs, function (data) {
+  //   // var csv_string = data;
+  //   // console.log(csv_string)
+  //   $("#pubs").html(data);
 
-  });
+  // });
 
 
 });
