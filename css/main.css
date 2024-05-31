@@ -1,10 +1,15 @@
 body {
   font-family: "Helvetica", "Arial";
+  color: #747474;
 }
 
 a {
   color: orange;
   text-decoration: none;
+}
+
+strong {
+  color: #555555;
 }
 
 a:hover {
@@ -40,7 +45,7 @@ h3 {
 }
 
 .nav a {
-  color: black;
+  color: #747474;
 }
 
 .nav a.active {
@@ -104,7 +109,7 @@ h3 {
   grid-auto-rows: 3em;
   align-items: center;
   align-self: center;
-  border-left: 1px black solid;
+  border-left: 1px #747474 solid;
 }
 
 .content {

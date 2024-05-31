@@ -1,6 +1,34 @@
 // use https://csvjson.com/csv2json
 var pubs = [
   {
+    "title": "Human-Human-Computer Interaction: An Approach for Designing Hybrid Work Technologies for Organizing Collective Actions",
+    "authors": "Gustavo Umbelino, Morgan Wu, Kristine Lu, Matthew Easterday",
+    "conference": "TOCHI",
+    "details": "in preparation",
+    "link": "#"
+  },
+  {
+    "title": "Towards Designing Relation Work Technologies for Organizing Collective Actions",
+    "authors": "Gustavo Umbelino, Morgan Wu, Matthew Easterday",
+    "conference": "TOCHI",
+    "details": "in preparation",
+    "link": "#"
+  },
+  {
+    "title": "E-Scribing: Towards Supporting Hybrid Work in Collocated Deliberations",
+    "authors": "Gustavo Umbelino, Kristine Lu, Matthew Easterday",
+    "conference": "DGOV",
+    "details": "in preparation",
+    "link": "#"
+  },
+  {
+    "title": "For Want of a Nail: The Importance of Efficacy in Motivating Participation in Deliberation",
+    "authors": "Gustavo Umbelino, Kristine Lu, Morgan Wu, Daniel Rees Lewis, Matthew Easterday",
+    "conference": "Journal of Deliberative Democracy",
+    "details": "in preparation",
+    "link": "#"
+  },
+  {
     "title": "Increasing Inclusion and Time-Efficiency in Participatory Policy-Making Deliberations with E-Scribing Technology",
     "authors": "Gustavo Umbelino, Kristine Lu, Matthew Easterday",
     "conference": "ICEGOV 2023",
@@ -40,11 +68,17 @@ $().ready(function () {
     const gus = 'Gustavo Umbelino';
     const highlight = '<strong>Gustavo Umbelino</strong>';
 
+    var title = pubs[i].title
+
+    if (pubs[i].link != "#") {
+      title = `<a target="_blank" href="${pubs[i].link}">${pubs[i].title}</a>`
+    }
+
     div.innerHTML = `
-    <strong>
-    <a target="_blank" href="${pubs[i].link}">${pubs[i].title}</a>
-  </strong><br />${pubs[i].authors.replace(gus, highlight)}<br />${pubs[i].conference}: ${pubs[i].details}
-`;
+      <strong>
+      ${title}
+    </strong><br />${pubs[i].authors.replace(gus, highlight)}<br />${pubs[i].conference}: <i>${pubs[i].details}</i>
+  `;
 
     document.getElementById('pubs').appendChild(div);
 
