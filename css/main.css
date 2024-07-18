@@ -1,6 +1,9 @@
 body {
   font-family: "Helvetica", "Arial";
-  color: #747474;
+  color: #aaa;
+  background-color: black;
+  line-height: 1.5;
+  font-size: larger;
 }
 
 a {
@@ -9,7 +12,7 @@ a {
 }
 
 strong {
-  color: #555555;
+  color: #eee;
 }
 
 a:hover {
@@ -18,6 +21,7 @@ a:hover {
 
 .pic img {
   width: 400px;
+  opacity: 80%;
 }
 
 .info h1 {
@@ -45,7 +49,7 @@ h3 {
 }
 
 .nav a {
-  color: #747474;
+  color: #aaa;
 }
 
 .nav a.active {
@@ -75,7 +79,7 @@ h3 {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 2fr;
   /* grid-template-rows: 1fr auto; */
   grid-gap: 1em;
   /* grid-column-gap: 1em;
@@ -101,7 +105,7 @@ h3 {
 
 .info {
   align-self: center;
-  width: 304px;
+  width: 400px;
 }
 
 .nav {
@@ -191,11 +195,11 @@ footer {
     /* border: 1px black solid; */
   }
 
-  .info {
+  /* .info {
     align-self: center;
     justify-self: center;
     width: 304px;
-  }
+  } */
 
   .wrapper {
     display: grid;
